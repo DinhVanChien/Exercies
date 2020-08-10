@@ -20,5 +20,4 @@ public class Flight {
 	public void setTimeFlight(String timeFlight) {
 		this.timeFlight = timeFlight;
 	}
-	
 }
