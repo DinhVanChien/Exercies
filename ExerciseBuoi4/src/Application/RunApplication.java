@@ -48,7 +48,6 @@ public class RunApplication {
 	public static void main(String[] args) {
 		
 		CalculaterTotalAmount calculaterTotalAmount = new CalculaterTotalAmount();
-		float totalAmount = 0;
 		System.out.println("************** Thông tin hàng khách ****************");
 		for(Passenger p : listPassenger()) {
 			System.out.println("Tên hành khách: "+p.getName());
@@ -59,10 +58,9 @@ public class RunApplication {
 			System.out.println("Loại vé: "+p.getTicketType());
 			System.out.println("Số lượng vé mua: "+p.getTotalTicket());
 			System.out.println("Tổn tiền vé: "+calculaterTotalAmount.totalAmountPayPassenger(p));
-			totalAmount += calculaterTotalAmount.totalAmountPayPassenger(p);
 			System.out.println();
 		}
 		System.out.println("Tổng số tiền của chuyến bay là ");
-		System.out.println(totalAmount);
+		System.out.println(calculaterTotalAmount.totalAmountFlight(listPassenger()));
 	}
 }

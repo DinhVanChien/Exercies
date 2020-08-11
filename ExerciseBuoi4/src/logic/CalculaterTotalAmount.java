@@ -1,4 +1,6 @@
 package logic;
+import java.util.List;
+
 import entity.Passenger;
 
 public class CalculaterTotalAmount {
@@ -36,6 +38,14 @@ public class CalculaterTotalAmount {
 			} else {
 				totalAmount = passenger.getTotalTicket() * priceTicket * 0.5f;	
 			}
+		}
+		return totalAmount;
+	}
+	
+	public float totalAmountFlight(List<Passenger> listPassenger) {
+		float totalAmount = 0;
+		for(Passenger p : listPassenger) {
+			totalAmount += totalAmountPayPassenger(p);
 		}
 		return totalAmount;
 	}
