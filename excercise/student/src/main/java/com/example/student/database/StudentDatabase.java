@@ -3,7 +3,7 @@ package com.example.student.database;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.student.entities.Student;
+import com.example.student.entity.Student;
 
 /*
  * Class này ví dụ là Database

@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.example.manager_user.entities.User;
+import com.example.manager_user.entity.User;
 
 @Repository
 public interface UserRepository {

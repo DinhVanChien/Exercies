@@ -1,19 +1,18 @@
-package com.example.student.entities;
+package com.example.manager_user.entity;
 
-public class Student {
+public class User {
 	private int id;
 	private String name;
 	private int age;
-	private String subject;
-	public Student(int id, String name, int age, String subject) {
+	
+	public User(int id, String name, int age) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.age = age;
-		this.subject = subject;
 	}
-	public Student() {
-		
+	public User() {
+		super();
 	}
 	public int getId() {
 		return id;
@@ -32,12 +31,6 @@ public class Student {
 	}
 	public void setAge(int age) {
 		this.age = age;
-	}
-	public String getSubject() {
-		return subject;
-	}
-	public void setSubject(String subject) {
-		this.subject = subject;
 	}
 	
 }

@@ -3,7 +3,7 @@ package com.example.manager_user.database;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.manager_user.entities.User;
+import com.example.manager_user.entity.User;
 
 public class UserData {
 	public static List<User> userData() {

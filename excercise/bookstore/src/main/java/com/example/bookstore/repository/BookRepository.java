@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.example.bookstore.entities.Book;
+import com.example.bookstore.entity.Book;
 
 @Repository
 public interface BookRepository {

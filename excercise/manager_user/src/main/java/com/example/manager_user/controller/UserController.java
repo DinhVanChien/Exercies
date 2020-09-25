@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.manager_user.entities.User;
+import com.example.manager_user.entity.User;
 import com.example.manager_user.service.UserService;
 
 @RestController

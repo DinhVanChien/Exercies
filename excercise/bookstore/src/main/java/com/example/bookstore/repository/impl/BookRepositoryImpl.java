@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.example.bookstore.database.BookDatabase;
-import com.example.bookstore.entities.Book;
+import com.example.bookstore.entity.Book;
 import com.example.bookstore.repository.BookRepository;
 
 @Repository

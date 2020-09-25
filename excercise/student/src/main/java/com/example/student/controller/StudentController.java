@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.student.entities.Student;
+import com.example.student.entity.Student;
 import com.example.student.service.StudentService;
 
 @RestController

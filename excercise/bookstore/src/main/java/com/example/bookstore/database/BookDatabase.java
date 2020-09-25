@@ -3,7 +3,7 @@ package com.example.bookstore.database;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.bookstore.entities.Book;
+import com.example.bookstore.entity.Book;
 /**
  * 
  * @author Dinh Van Chien
