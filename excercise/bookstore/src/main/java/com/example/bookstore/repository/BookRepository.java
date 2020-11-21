@@ -8,5 +8,5 @@ import com.example.bookstore.entity.Book;
 
 @Repository
 public interface BookRepository {
-	public List<Book> findAll();
+	public Book save(Book b);
 }
